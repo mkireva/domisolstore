@@ -17,8 +17,8 @@ export default async function AllProductsPage() {
 	const t = await getTranslations("/products.page");
 
 	return (
-		<main className="pb-8">
-			<h1 className="text-3xl font-bold leading-none tracking-tight text-foreground">{t("title")}</h1>
+		<main className="pb-8 md:mt-6">
+			<h1 className="text-3xl font-bold leading-none tracking-tight text-foreground ">{t("title")}</h1>
 			<ProductList products={products} />
 		</main>
 	);

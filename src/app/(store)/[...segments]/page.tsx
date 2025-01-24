@@ -3,7 +3,7 @@ import Link, { type LinkProps } from "next/link";
 import { notFound } from "next/navigation";
 
 const pages: Record<string, { content: string }> = {
-	"/about": {
+	"/impressum": {
 		content: `
 # About
 

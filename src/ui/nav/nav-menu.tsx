@@ -1,4 +1,3 @@
-import StoreConfig from "@/store.config";
 import { NavMobileMenu } from "@/ui/nav/nav-mobile-menu.client";
 import Link from "next/link";
 
@@ -7,13 +6,13 @@ const links = [
 		label: "Home",
 		href: "/",
 	},
-	...StoreConfig.categories.map(({ name, slug }) => ({
-		label: name,
-		href: `/category/${slug}`,
-	})),
+	// ...StoreConfig.categories.map(({ name, slug }) => ({
+	// 	label: name,
+	// 	href: `/category/${slug}`,
+	// })),
 	{
-		label: "Digital",
-		href: "/category/digital",
+		label: "Shop",
+		href: "/products",
 	},
 ];
 
