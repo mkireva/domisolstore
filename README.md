@@ -190,3 +190,4 @@ YNS evolves each day, and we actively seek feedback on what to improve. If you h
 ### Sometimes, you use `structuredClone` to pass data from server to client components. Why?
 
 Only certain types of data can be passed from the server to the client directly. Data from Stripe SDK often contains class instances. To work around this, we use `structuredClone` to eliminate them and pass just plain old objects to the client.
+# domisolstore
