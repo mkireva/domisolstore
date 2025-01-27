@@ -59,7 +59,7 @@ export default async function Home() {
 					<h1 className="text-4xl font-bold tracking-tighter sm:text-3xl text-center mb-8">Über das Buch</h1>
 					<div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 						{[
-							"Alle Lieder und Musikkompositionen außer der Paneurhythmie",
+							"Alle überlieferten Lieder und Musikkompositionen außer der Paneurhythmie",
 							"bulgarisch-deutsch",
 							"lateinische Transliteration des Kyrillischen",
 							"Übersetzung der Liedtexte ins Deutsche",
