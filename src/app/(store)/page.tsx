@@ -34,7 +34,7 @@ export default async function Home() {
 								className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-200 px-6 font-medium text-neutral-900 transition-colors hover:bg-neutral-200/90 focus:outline-none focus:ring-1 focus:ring-neutral-50"
 								href={"/leseprobe.pdf"}
 							>
-								Zur Leseprobe <ChevronRight className="ml-2 h-5 w-5" />
+								Leseprobe <ChevronRight className="ml-2 h-5 w-5" />
 							</YnsLink>
 						</div>
 					</div>
