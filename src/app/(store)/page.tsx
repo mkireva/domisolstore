@@ -23,7 +23,7 @@ export default async function Home() {
 					<div className="max-w-md space-y-4">
 						<h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">{t("hero.title")}</h2>
 						<p className="text-pretty text-neutral-600">{t("hero.description")}</p>
-						<div className="flex gap-4 mt-6">
+						<div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
 							<YnsLink
 								className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-900 px-6 font-medium text-neutral-50 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
 								href="/product/digital"
