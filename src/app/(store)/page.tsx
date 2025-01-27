@@ -51,7 +51,7 @@ export default async function Home() {
 						}}
 						sizes="(max-width: 640px) 70vw, 450px"
 					/>
-					<div className="my-8 flex items-center justify-center "></div>
+					<div className=" flex items-center justify-center "></div>
 				</div>
 			</section>
 			<section className="w-full py-8 md:py-12 mt-4">
@@ -59,7 +59,7 @@ export default async function Home() {
 					<h1 className="text-4xl font-bold tracking-tighter sm:text-3xl text-center mb-8">Über das Buch</h1>
 					<div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 						{[
-							"Alle überlieferten Lieder und Musikkompositionen",
+							"Alle Lieder und Musikkompositionen außer der Paneurhythmie",
 							"bulgarisch-deutsch",
 							"lateinische Transliteration des Kyrillischen",
 							"Übersetzung der Liedtexte ins Deutsche",
