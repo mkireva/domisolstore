@@ -45,7 +45,7 @@ export default async function Home() {
 						className="rounded"
 						height={450}
 						width={450}
-						src="/bk.png"
+						src="/bd-last.png"
 						style={{
 							objectFit: "cover",
 						}}
@@ -59,7 +59,7 @@ export default async function Home() {
 					<h1 className="text-4xl font-bold tracking-tighter sm:text-3xl text-center mb-8">Über das Buch</h1>
 					<div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 						{[
-							"Alle überlieferten Lieder und Musikkompositionen außer der Paneurhythmie",
+							"Alle überlieferten Lieder und Musikkompositionen",
 							"bulgarisch-deutsch",
 							"lateinische Transliteration des Kyrillischen",
 							"Übersetzung der Liedtexte ins Deutsche",
@@ -129,14 +129,6 @@ export default async function Home() {
 					<ProductList products={products} />
 				</div>
 			</section>
-
-			{/* <section className="w-full py-8">
-				<div className="grid gap-8 lg:grid-cols-2">
-					{StoreConfig.categories.map(({ slug, image: src }) => (
-						<CategoryBox key={slug} categorySlug={slug} src={src} />
-					))}
-				</div>
-			</section> */}
 		</main>
 	);
 }
