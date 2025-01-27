@@ -3,7 +3,7 @@ import { NavMenu } from "@/ui/nav/nav-menu";
 import { SearchNav } from "@/ui/nav/search-nav";
 import { SeoH1 } from "@/ui/seo-h1";
 import { YnsLink } from "@/ui/yns-link";
-// import { UserIcon } from "lucide-react";
+import { UserIcon } from "lucide-react";
 
 export const Nav = async () => {
 	return (
@@ -19,9 +19,9 @@ export const Nav = async () => {
 					<SearchNav />
 				</div>
 				<CartSummaryNav />
-				{/* <YnsLink href="/login">
+				<YnsLink href="/login">
 					<UserIcon className="hover:text-neutral-500" />
-				</YnsLink> */}
+				</YnsLink>
 			</div>
 		</header>
 	);
