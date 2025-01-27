@@ -1,6 +1,7 @@
 import { publicUrl } from "@/env.mjs";
 import { getTranslations } from "@/i18n/server";
 import { ProductList } from "@/ui/products/product-list";
+import { Button } from "@/ui/shadcn/button";
 import { Card, CardContent } from "@/ui/shadcn/card";
 import { YnsLink } from "@/ui/yns-link";
 import * as Commerce from "commerce-kit";
@@ -30,12 +31,10 @@ export default async function Home() {
 							>
 								{t("hero.action")} <ChevronRight className="ml-1 h-5 w-5" />
 							</YnsLink>
-							<YnsLink
-								className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-200 px-6 font-medium text-neutral-900 transition-colors hover:bg-neutral-200/90 focus:outline-none focus:ring-1 focus:ring-neutral-50"
-								href={"/leseprobe.pdf"}
-							>
-								Leseprobe <ChevronRight className="ml-1 h-5 w-5" />
-							</YnsLink>
+							<Button className="inline-flex text-md h-10 items-center justify-center rounded-full bg-neutral-200 px-6 font-medium text-neutral-900 transition-colors hover:bg-neutral-200/90 focus:outline-none focus:ring-1 focus:ring-neutral-50">
+								<a href="/leseprobe.pdf">Leseprobe</a>
+								<ChevronRight className="ml-1 h-5 w-5" />
+							</Button>
 						</div>
 					</div>
 
@@ -52,6 +51,7 @@ export default async function Home() {
 						}}
 						sizes="(max-width: 640px) 70vw, 450px"
 					/>
+					<div className="my-8 flex items-center justify-center "></div>
 				</div>
 			</section>
 			<section className="w-full py-8 md:py-12 mt-4">
