@@ -27,7 +27,7 @@ export default async function Home() {
 						<div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
 							<YnsLink
 								className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-900 px-6 font-medium text-neutral-50 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
-								href="/product/digital"
+								href="/product/songs"
 							>
 								{t("hero.action")} <ChevronRight className="ml-1 h-5 w-5" />
 							</YnsLink>
@@ -39,17 +39,17 @@ export default async function Home() {
 					</div>
 
 					<Image
-						alt="Cup of Coffee"
+						alt="Song book"
 						loading="eager"
 						priority={true}
 						className="rounded"
-						height={450}
-						width={450}
+						height={700}
+						width={700}
 						src="/bd-last.png"
 						style={{
 							objectFit: "cover",
 						}}
-						sizes="(max-width: 640px) 70vw, 450px"
+						sizes="(max-width: 640px) 70vw, 640px"
 					/>
 					<div className=" flex items-center justify-center "></div>
 				</div>
